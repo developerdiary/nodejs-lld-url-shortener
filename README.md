@@ -2,6 +2,9 @@
 
 A production-ready URL shortener service built with Node.js, demonstrating key Low-Level Design patterns and SOLID principles.
 
+## Support my work ☕
+Buy me a coffee 👉 https://bit.ly/4r8dDOa
+
 ## 🎯 Project Overview
 
 This project showcases a complete URL shortener implementation following industry-standard design patterns including Strategy Pattern, Repository Pattern, Dependency Injection, and Layered Architecture.
@@ -438,16 +441,16 @@ Add corresponding service and controller methods.
 
 ## 📝 License
 
-ISC
+MIT License - Feel free to use this for learning and interviews!
 
 ---
 
 ## 👨‍💻 Contributing
 
+This project is for educational purposes.
 Contributions are welcome! Please follow the existing code structure and design patterns.
 
 ---
 
-## 🙏 Acknowledgments
-
-This project demonstrates production-grade Low-Level Design patterns used in real-world systems like bit.ly, TinyURL, and other URL shortening services.
+## Support my work ☕
+Buy me a coffee 👉 https://bit.ly/4r8dDOa
