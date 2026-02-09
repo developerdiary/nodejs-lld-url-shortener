@@ -3,7 +3,7 @@
 A production-ready URL shortener service built with Node.js, demonstrating key Low-Level Design patterns and SOLID principles.
 
 ## Support my work ☕
-Buy me a coffee 👉 https://bit.ly/4r8dDOa
+Buy me a coffee 👉 https://bit.ly/3MnzqlH
 
 ## 🎯 Project Overview
 
@@ -453,4 +453,4 @@ Contributions are welcome! Please follow the existing code structure and design 
 ---
 
 ## Support my work ☕
-Buy me a coffee 👉 https://bit.ly/4r8dDOa
+Buy me a coffee 👉 https://bit.ly/3MnzqlH
