@@ -224,8 +224,9 @@ nodejs-lld-url-shortener/
 
 ### Prerequisites
 - Node.js (v14 or higher)
-- MongoDB (running on default port 27017)
-- Redis (running on default port 6379)
+- **Either:**
+  - Docker and Docker Compose (recommended)
+  - **OR** MongoDB (running on default port 27017) + Redis (running on default port 6379)
 
 ### Installation
 
@@ -247,25 +248,36 @@ nodejs-lld-url-shortener/
    REDIS_URL=redis://127.0.0.1:6379
    ```
 
-4. **Start MongoDB:**
+4. **Start MongoDB and Redis:**
+
+   **Option A: Using Docker (Recommended):**
    ```bash
-   # Windows
-   mongod
+   # Start MongoDB and Redis containers
+   docker-compose up -d
    
-   # macOS/Linux
-   sudo systemctl start mongod
+   # Stop containers
+   docker-compose down
+   
+   # Stop and remove data volumes
+   docker-compose down -v
    ```
 
-5. **Start Redis:**
+   **Option B: Local Installation:**
    ```bash
-   # Windows
+   # Windows - MongoDB
+   mongod
+   
+   # Windows - Redis
    redis-server
    
-   # macOS/Linux
+   # macOS/Linux - MongoDB
+   sudo systemctl start mongod
+   
+   # macOS/Linux - Redis
    sudo systemctl start redis
    ```
 
-6. **Run the application:**
+5. **Run the application:**
    ```bash
    npm run dev
    ```
